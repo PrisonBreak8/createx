@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>PREPROS</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!--========================= FAVICON =========================-->
+	<link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon">
+
+	<!--================= FONTAWESOME MIN CSS =================-->
+	<link rel="stylesheet" href="css/iconsfonts.css">
+
+	<!--========================== SWIPER =========================-->
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+	<link rel="stylesheet" href="">
+
+	<!--================== CSS ==================-->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="wrapper">
+
+		<header class="header header-white">
+			<div class="header__container">
+				<div class="header__body">
+
+					<div class="header__menu">
+						<a class="logo-header" href="#"> <img src="img/logo.svg" alt="сompany`s logo"></a>
+						<nav class="navbar navbar-white">
+							<ul class="menu__list">
+								<li class="menu__item"><a class="menu__sub-link " data-goto="#about" href="#">About Us</a></li>
+								<li class="menu__item"><a class="menu__sub-link" data-goto="#courses" href="#">Courses</a></li>
+								<li class="menu__item"><a class="menu__sub-link" data-goto="#events" href="#">Events</a></li>
+								<li class="menu__item"><a class="menu__sub-link" data-goto="#blog" href="#">Blog</a></li>
+								<li class="menu__item"><a class="menu__sub-link" data-goto="#contacts" href="#">Contacts</a></li>
+							</ul>
+						</nav>
+					</div>
+
+					<div class="header__login">
+						<a class="button button_large button_red button_hide button_mb-none button_padding" href="#">Get consultation</a>
+						<a class="user__icon _icon-user" id="login-btn" href="#"><span>Log in / Register</span></a>
+						<div class="menu__icon"><span></span></div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="main">
+
+			<!--=============== ENGOY YOUR STUDYING ! ===============-->
+			<div class="engoy" id="courses">
+				<div class="engoy__container">
+					<div class="content-header">
+						<div class="content-header__sub-title content-header_center">Enjoy your studying!</div>
+						<h2 class="content-header__title content-header_center content-header_margin">Our online courses</h2>
+					</div>
+
+					<div class="engoy__mentors">
+						<ul class="engoy__filter">
+							<li class="engoy__filter-btn">
+								<button class="portfolio__filter-link" data-filter="all" type="button">All<span>17</span></button>
+							</li>
+
+							<li class="engoy__filter-btn">
+								<button class="portfolio__filter-link" data-filter=".category-marketing" type="button">Marketing<span>4</span></button>
+							</li>
+
+							<li class="engoy__filter-btn">
+								<button class="portfolio__filter-link" data-filter=".category-management" type="button">Management<span>3</span></button>
+							</li>
+
+							<li class="engoy__filter-btn">
+								<button class="portfolio__filter-link" data-filter=".category-recruting" type="button">HR & Recruting<span>5</span></button>
+							</li>
+
+							<li class="engoy__filter-btn">
+								<button class="portfolio__filter-link" data-filter=".category-design" type="button">Design<span>2</span></button>
+							</li>
+
+							<li class="engoy__filter-btn">
+								<button class="portfolio__filter-link" data-filter=".category-development" type="button">Development<span>3</span></button>
+							</li>
+						</ul>
+						<div class="engoy__search _icon-search">
+							<input class="engoy__input" type="text" placeholder="Search course...">
+						</div>
+					</div>
+
+					<ul class="engoy__block">
+
+						<li class="engoy__foto mix category-marketing">
+							<a class="engoy__foto-item" href="#">
+								<picture>
+									<source srcset="img/courses_page/image_courses1.webp" type="image/webp">
+									<img class="engoy__img" src="img/courses_page/image_courses1.png" alt="image workers">
+								</picture>
+							</a>
+							<div class="engoy__description">
+								<span class="ready-to-learn__warkers ready-to-learn__warkers_marketing">Marketing</span>
+								<p class="engoy__profession">The Ultimate Google Ads Training Course</p>
+								<div class="engoy__price">100$<span> | by Jerome Bell</span></div>
+							</div>
+						</li>
+
+						<li class="engoy__foto mix category-management">
+							<a class="engoy__foto-item" href="#">
+								<picture>
+									<source srcset="img/courses_page/image_courses2.webp" type="image/webp">
+									<img class="engoy__img" src="img/courses_page/image_courses2.png" alt="image workers">
+								</picture>
+							</a>
+							<div class="engoy__description">
+								<span class="ready-to-learn__warkers ready-to-learn__warkers_management">Management</span>
+								<p class="engoy__profession">Prduct Management Fundamentals</p>
+								<div class="engoy__price">480$<span> | by Marvin McKinney</span></div>
+							</div>
+						</li>
+
+						<li class="engoy__foto mix category-recruting">
+							<a class="engoy__foto-item" href="#">
+								<picture>
+									<source srcset="img/courses_page/image_courses3.webp" type="image/webp">
+									<img class="engoy__img" src="img/courses_page/image_courses3.png" alt="image workers">
+								</picture>
+							</a>
+							<div class="engoy__description">
+								<span class="ready-to-learn__warkers ready-to-learn__warkers_hr">HR & Recruting</span>
+								<p class="engoy__profession">HR Management and Analytics</p>
+								<div class="engoy__price">200$<span> | by Leslie Alexander Li</span></div>
+							</div>
+						</li>
+
+						<li class="engoy__foto mix category-marketing">
+							<a class="engoy__foto-item" href="#">
+								<picture>
+									<source srcset="img/courses_page/image_courses4.webp" type="image/webp">
+									<img class="engoy__img" src="img/courses_page/image_courses4.png" alt="image workers">
+								</picture>
+							</a>
+							<div class="engoy__description">
+								<span class="ready-to-learn__warkers ready-to-learn__warkers_marketing">Marketing</span>
+								<p class="engoy__profession">Brand Management & PR Communications</p>
+								<div class="engoy__price">530$<span> | by Kristin Watson</span></div>
+							</div>
+						</li>
+
+						<li class="engoy__foto mix category-design">
+							<a class="engoy__foto-item" href="#">
+								<picture>
+									<source srcset="img/courses_page/image_courses5.webp" type="image/webp">
+									<img class="engoy__img" src="img/courses_page/image_courses5.png" alt="image workers">
+								</picture>
+							</a>
+							<div class="engoy__description">
+								<span class="ready-to-learn__warkers ready-to-learn__warkers_design">Design</span>
+								<p class="engoy__profession">Graphic Design Basic</p>
+								<div class="engoy__price">500$<span> | by Guy Hawkins</span></div>
+							</div>
+						</li>
+
+						<li class="engoy__foto mix category-management">
+							<a class="engoy__foto-item" href="#">
+								<picture>
+									<source srcset="img/courses_page/image_courses6.webp" type="image/webp">
+									<img class="engoy__img" src="img/courses_page/image_courses6.png" alt="image workers">
+								</picture>
+							</a>
+							<div class="engoy__description">
+								<span class="ready-to-learn__warkers ready-to-learn__warkers_management">Management</span>
+								<p class="engoy__profession">Business Development Management</p>
+								<div class="engoy__price">400$<span> | by Dianne Russell</span></div>
+							</div>
+						</li>
+
+						<li class="engoy__foto mix category-development">
+							<a class="engoy__foto-item" href="#">
+								<picture>
+									<source srcset="img/courses_page/image_courses7.webp" type="image/webp">
+									<img class="engoy__img" src="img/courses_page/image_courses7.png" alt="image workers">
+								</picture>
+							</a>
+							<div class="engoy__description">
+								<span class="ready-to-learn__warkers ready-to-learn__warkers_development">Development</span>
+								<p class="engoy__profession">Highload Software Architecture</p>
+								<div class="engoy__price">600$<span> | by Brooklyn Simmons</span></div>
+							</div>
+						</li>
+
+						<li class="engoy__foto mix category-recruting">
+							<a class="engoy__foto-item" href="#">
+								<picture>
+									<source srcset="img/courses_page/image_courses8.webp" type="image/webp">
+									<img class="engoy__img" src="img/courses_page/image_courses8.png" alt="image workers">
+								</picture>
+							</a>
+							<div class="engoy__description">
+								<span class="ready-to-learn__warkers ready-to-learn__warkers_hr">HR & Recruting</span>
+								<p class="engoy__profession">Human Resources – Selection and Recruitment</p>
+								<div class="engoy__price">150$<span> | by Kathryn Murphy</span></div>
+							</div>
+						</li>
+
+						<li class="engoy__foto mix category-design">
+							<a class="engoy__foto-item" href="#">
+								<picture>
+									<source srcset="img/courses_page/image_courses9.webp" type="image/webp">
+									<img class="engoy__img" src="img/courses_page/image_courses9.png" alt="image workers">
+								</picture>
+							</a>
+							<div class="engoy__description">
+								<span class="ready-to-learn__warkers ready-to-learn__warkers_design">Design</span>
+								<p class="engoy__profession">User Experience. Human-centered Design</p>
+								<div class="engoy__price">240$<span> | by Cody Fisher</span></div>
+							</div>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+
+			<!--=============== TESTIMONIALS ===============-->
+			<div class="testimonials">
+				<div class="testimonials__container">
+					<div class="content-header">
+						<div class="content-header__sub-title content-header_center">TESTIMONIALS</div>
+						<h2 class="content-header__title content-header_center content-header_margin">What our students say</h2>
+					</div>
+
+					<div class="swiper testimonials-slider">
+						<div class="swiper-wrapper">
+
+							<div class="swiper-slide slide">
+								<div class="reviews">
+									<div class="reviews__block">
+										<p class="reviews__text">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet lectus quam viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus
+											ornare turpis quis non. Congue
+											tortor in euismod vulputate etiam eros. Pulvinar neque pharetra arcu diam maecenas diam integer in.
+										</p>
+										<div class="reviews__image">
+											<picture>
+												<source srcset="img/hone_page/home_page_swiper/studentssay_slide.webp" type="image/webp">
+												<img src="img/hone_page/home_page_swiper/studentssay_slide.png" alt="image">
+											</picture>
+											<div class="reviews__descr">
+												<h5 class="reviews__name">Eleanor Pena</h5>
+												<p class="reviews__position">Position, Course</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-slide slide">
+								<div class="reviews">
+									<div class="reviews__block">
+										<p class="reviews__text">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet lectus quam viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus
+											ornare turpis quis non. Congue
+											tortor in euismod vulputate etiam eros. Pulvinar neque pharetra arcu diam maecenas diam integer in.
+										</p>
+										<div class="reviews__image">
+											<picture>
+												<source srcset="img/hone_page/home_page_swiper/studentssay_slide.webp" type="image/webp">
+												<img src="img/hone_page/home_page_swiper/studentssay_slide.png" alt="image">
+											</picture>
+											<div class="reviews__descr">
+												<h5 class="reviews__name">Eleanor Pena</h5>
+												<p class="reviews__position">Position, Course</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-slide slide">
+								<div class="reviews">
+									<div class="reviews__block">
+										<p class="reviews__text">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet lectus quam viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus
+											ornare turpis quis non. Congue
+											tortor in euismod vulputate etiam eros. Pulvinar neque pharetra arcu diam maecenas diam integer in.
+										</p>
+										<div class="reviews__image">
+											<picture>
+												<source srcset="img/hone_page/home_page_swiper/studentssay_slide.webp" type="image/webp">
+												<img src="img/hone_page/home_page_swiper/studentssay_slide.png" alt="image">
+											</picture>
+											<div class="reviews__descr">
+												<h5 class="reviews__name">Eleanor Pena</h5>
+												<p class="reviews__position">Position, Course</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-slide slide">
+								<div class="reviews">
+									<div class="reviews__block">
+										<p class="reviews__text">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet lectus quam viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus
+											ornare turpis quis non. Congue
+											tortor in euismod vulputate etiam eros. Pulvinar neque pharetra arcu diam maecenas diam integer in.
+										</p>
+										<div class="reviews__image">
+											<picture>
+												<source srcset="img/hone_page/home_page_swiper/studentssay_slide.webp" type="image/webp">
+												<img src="img/hone_page/home_page_swiper/studentssay_slide.png" alt="image">
+											</picture>
+											<div class="reviews__descr">
+												<h5 class="reviews__name">Eleanor Pena</h5>
+												<p class="reviews__position">Position, Course</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-slide slide">
+								<div class="reviews">
+									<div class="reviews__block">
+										<p class="reviews__text">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet lectus quam viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus
+											ornare turpis quis non. Congue
+											tortor in euismod vulputate etiam eros. Pulvinar neque pharetra arcu diam maecenas diam integer in.
+										</p>
+										<div class="reviews__image">
+											<picture>
+												<source srcset="img/hone_page/home_page_swiper/studentssay_slide.webp" type="image/webp">
+												<img src="img/hone_page/home_page_swiper/studentssay_slide.png" alt="image">
+											</picture>
+											<div class="reviews__descr">
+												<h5 class="reviews__name">Eleanor Pena</h5>
+												<p class="reviews__position">Position, Course</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Добавляем если нам нужны стрелки управления -->
+						<!--<div class="swiper-button-prev swiper-button-prev_none"></div>
+											<div class="swiper-button-next swiper-button-next_none"></div>-->
+						<!-- Добавляем, если нам нужна пагинация -->
+						<!--<div class="swiper-pagination"></div>-->
+					</div>
+
+				</div>
+			</div>
+
+			<!--=============== CREATEX CERTIFICATE ===============-->
+			<div class="createx-certificate">
+				<div class="createx-certificate__container">
+					<div class="createx-certificate__body">
+						<div class="content-header content-header_width ">
+							<div class="content-header__sub-title content-header__sub-title_font-size">Createx Certificate</div>
+							<h2 class="content-header__title content-header__title_font-size content-header_margin">Your expertise will be confirmed</h2>
+							<p class="createx-certificate__text">We are accredited by international professional organizations and institutes:</p>
+
+							<div class="createx-certificate__partners">
+								<div class="createx-certificate__image">
+									<picture>
+										<source srcset="img/hone_page/partners1.webp" type="image/webp">
+										<img src="img/hone_page/partners1.png" alt="our partners">
+									</picture>
+								</div>
+								<div class="createx-certificate__image">
+									<picture>
+										<source srcset="img/hone_page/partners2.webp" type="image/webp">
+										<img src="img/hone_page/partners2.png" alt="our partners">
+									</picture>
+								</div>
+								<div class="createx-certificate__image">
+									<picture>
+										<source srcset="img/hone_page/partners3.webp" type="image/webp">
+										<img src="img/hone_page/partners3.png" alt="our partners">
+									</picture>
+								</div>
+							</div>
+						</div>
+						<div class="createx-certificate__image-certificate">
+							<picture>
+								<source srcset="img/hone_page/certificate.webp" type="image/webp">
+								<img src="img/hone_page/certificate.jpg" alt="image certificate">
+							</picture>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!--=============== DON’T MISS ANYTHING ===============-->
+			<div class="dont-miss ">
+				<div class="dont-miss__container ">
+					<div class="content-header content-header_min-width">
+						<div class="content-header__sub-title content-header_center">Don’t miss anything</div>
+						<h2 class="content-header__title content-header_center content-header_margin">Subscribe to the Createx School announcements</h2>
+					</div>
+
+					<!-- Контайнер -->
+					<div class="container-block ">
+
+						<!--Внутрений блок-->
+						<div class="block toggle">
+							<section class="block__item block-item">
+								<h2 class="block-item__title">You already have an account?</h2>
+								<button class="button button_large button_white signin-btn">To come in</button>
+							</section>
+							<section class="block__item block-item">
+								<h2 class="block-item__title">You don't have an account?</h2>
+								<button class="button button_large button_red signup-btn">Register</button>
+							</section>
+						</div>
+
+						<!-- Блок формы -->
+						<div class="form-box">
+
+							<!-- Форма входа -->
+							<form action="#" class="form form_signin">
+								<h3 class="form__title">entrance</h3>
+
+								<div>
+									<input class="form__input" type="text" placeholder="login">
+								</div>
+
+								<div>
+									<input class="form__input" type="password" placeholder="password">
+								</div>
+
+								<div>
+									<button class="button button_large button_red ">To come in</button>
+								</div>
+
+								<div>
+									<a class="form__forgot button button_small button_white" href="#">Recover password</a>
+								</div>
+							</form>
+
+							<!-- Форма регистрации -->
+							<form action="#" class="form form_signup">
+								<h3 class="form__title">registration</h3>
+
+								<div>
+									<input class="form__input" type="text" placeholder="login">
+								</div>
+
+								<div>
+									<input class="form__input" type="email" placeholder="email">
+								</div>
+
+								<div>
+									<input class="form__input" type="password" placeholder="password">
+								</div>
+
+								<div>
+									<input class="form__input" type="password" placeholder="сonfirm the password">
+								</div>
+
+								<div>
+									<button class="button button_large button_red">Register</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<!-- @import "footer.html"  -->
+	</div>
+
+	<!--========================== JQUERY LIBS =========================-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+	<!--========================== MIXITUP =========================-->
+	<!--<script src="js/mixitup.min.js"></script>-->
+
+	<!--========================== SWIPER =========================-->
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src=""></script>
+
+	<!--=============== MAIN JS ===============-->
+	<script src="js/main.js"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,1581 @@
+/* PC */
+/*@media (max-width: 1087px) {
+	[class*="__container"] {
+		max-width: 970px;
+	}
+}*/
+/* TABLET */
+/*@media (max-width: 991.98px) {
+	[class*="__container"] {
+		max-width: 750px;
+	}
+}*/
+/* MOBILE */
+/*@media (max-width: 767.98px) {
+	[class*="__container"] {
+		max-width: none;
+	}
+}*/
+/* MOBILE SMALL */
+/*@media (max-width: 479.98px) {
+}*/
+
+/* PC */
+@media (max-width: 1130px) {
+	[class*="__container"] {
+		max-width: none;
+	}
+
+	.top-footer {
+		// .top-footer__content
+
+		&__content {
+			max-width: 220px;
+		}
+
+		// .top-footer__text
+
+		&__text {
+			margin: 0 0 18px 0;
+		}
+
+		// .top-footer__link
+
+		&__link {
+			margin: 0 10px 0 0;
+			font-size: 22px;
+		}
+	}
+
+	.logo {
+		margin: 0 0 15px 0;
+	}
+
+	.footer-info {
+		gap: 50px;
+		// .footer-info__lists
+
+		&__lists {
+			max-width: 235px;
+		}
+
+		// .footer-info__subtitle
+
+		&__subtitle {
+			font-size: 14px;
+			// .footer-info__subtitle_margin
+		}
+
+		// .footer-info__link
+
+		&__link {
+			font-size: 14px;
+		}
+	}
+}
+
+/* PC */
+@media (max-width: 1090.98px) {
+	[class*="__container"] {
+		max-width: none;
+	}
+
+	/*==================== HEADER ====================*/
+	.menu {
+		// .menu__item
+
+		&__item {
+			margin: 0 0 0 30px;
+		}
+	}
+
+	._icon-user:before {
+		content: "\e959";
+		font-size: 22px;
+		margin: 0 10px 0 20px;
+		cursor: pointer;
+	}
+	/*==================== ONLINE COURSES ====================*/
+	.online-courses {
+		padding: 120px 0 80px 0;
+
+		// .online-courses__content
+
+		&__content {
+			margin: 0 0 140px 0;
+		}
+	}
+
+	.block {
+		// .block__text
+
+		&__text {
+			// .block__text_big-text
+
+			&_big-text {
+				margin: 0 0 40px 0;
+				font-size: 58px;
+			}
+		}
+	}
+
+	/*==================== WHO WE ARE ====================*/
+	.who-we-are {
+		padding: 160px 0 90px 0;
+		// .who-we-are__container
+
+		// .who-we-are__img
+
+		&__img {
+			margin: 0 50px 0 0;
+
+			img {
+				width: 100%;
+				height: 500px;
+				object-fit: cover;
+				display: block;
+			}
+		}
+	}
+
+	/*========================= READY TO LEARN =========================*/
+	.ready-to-learn {
+		// .ready-to-learn__description
+
+		&__description {
+			padding: 22px;
+		}
+	}
+
+	/*==================== CREATEX CERTIFICATE ====================*/
+
+	.content-header {
+		// .content-header_width
+
+		&_width {
+			max-width: 400px;
+			margin: 0 60px 0 0;
+			padding: 0 25px 0 0;
+		}
+	}
+
+	/*==================== OUR BLOG  ====================*/
+	.our-blog {
+		// .our-blog__body
+
+		&__body {
+			gap: 20px;
+		}
+
+		// .our-blog__module
+
+		&__module {
+			margin: 0 5px;
+		}
+
+		._icon-calendar:before {
+			content: "\e96d";
+			margin: 0 5px 0 0;
+		}
+
+		._icon-clock:before {
+			content: "\e904";
+			margin: 0 5px 0 0;
+		}
+	}
+}
+
+/* TABLET */
+@media (max-width: 991.98px) {
+	[class*="__container"] {
+		max-width: none;
+	}
+
+	.header {
+		padding: 10px 0;
+
+		&__login {
+			padding: 0 0 0 10px;
+		}
+
+		.user__icon span {
+			display: none;
+		}
+
+		._icon-user:before {
+			content: "\e959";
+			font-size: 22px;
+			margin: 0 10px 0 20px;
+		}
+	}
+
+	.logo-header {
+		z-index: 5;
+		margin: 0 15px 0 0;
+	}
+
+	.menu {
+		&__item {
+			margin: 0 0 0 20px;
+		}
+	}
+
+	.button_padding {
+		padding: 0 20px;
+		font-size: 14px;
+	}
+
+	._icon-user:before {
+		content: "\e959";
+		font-size: 22px;
+		margin: 0 10px 0 15px;
+		cursor: pointer;
+	}
+
+	/*==================== ONLINE COURSES ====================*/
+	.online-courses {
+		padding: 120px 0 80px 0;
+
+		// .online-courses__content
+
+		&__content {
+			margin: 0 0 60px 0;
+		}
+
+		// .online-courses__block
+
+		&__block {
+			a {
+				margin: 0 15px 0 0;
+			}
+		}
+
+		// .online-courses__image
+
+		&__image {
+			img {
+				max-width: 100%;
+				height: 450px;
+			}
+		}
+
+		// .online-courses__lists
+
+		&__lists {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			grid-gap: 30px;
+		}
+
+		// .online-courses__list
+
+		&__list {
+			display: block;
+			text-align: center;
+		}
+
+		// .online-courses__number
+
+		&__number {
+			font-weight: 900;
+			font-size: 38px;
+			line-height: 1.3;
+			color: #1e212c;
+			margin: 0 0 15px 0;
+		}
+
+		// .online-courses__subtitle
+
+		&__subtitle {
+			color: #1e212c;
+			font-size: 20px;
+			// .online-courses__subtitle_round
+
+			&_round {
+				display: none;
+			}
+		}
+	}
+
+	.video {
+		// .video__play
+
+		&__play {
+			margin: 0 0 25px 0;
+		}
+	}
+
+	.block {
+		// .block__text
+
+		&__text {
+			// .block__text_big-text
+
+			&_big-text {
+				font-size: 48px;
+			}
+		}
+	}
+
+	.button {
+		// .button_font-size
+
+		&_font-size {
+			padding: 0 20px;
+		}
+	}
+
+	/*==================== WHO WE ARE ====================*/
+	.who-we-are {
+		padding: 140px 0 90px 0;
+		// .who-we-are__container
+
+		// .who-we-are__img
+
+		&__img {
+			margin: 0 50px 0 0;
+
+			img {
+				width: 100%;
+				height: 480px;
+				object-fit: cover;
+				display: block;
+			}
+		}
+	}
+	.content-header {
+		// .content-header__title
+
+		&__title {
+			margin: 0 0 30px 0;
+			font-size: 40px;
+		}
+	}
+	.list {
+		display: flex;
+		flex-direction: column;
+		padding: 0 0 40px 0;
+	}
+
+	/*========================= READY TO LEARN =========================*/
+	.ready-to-learn {
+		// .ready-to-learn__cards
+
+		&__cards {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			grid-gap: 20px;
+			justify-items: center;
+		}
+
+		// .ready-to-learn__card
+
+		&__card {
+			display: inline-block;
+
+			img {
+				margin: 0 0 10px 0;
+				max-width: 214px;
+			}
+		}
+
+		// .ready-to-learn__description
+
+		&__description {
+			max-width: 214px;
+			padding: 10px;
+		}
+
+		// .ready-to-learn__warkers
+
+		&__warkers {
+			line-height: 1.5;
+			margin: 0 0 12px 0;
+		}
+
+		// .ready-to-learn__profession
+
+		&__profession {
+			font-size: 18px;
+			margin: 0 0 12px 0;
+		}
+
+		// .ready-to-learn__price
+
+		&__price {
+			font-weight: 700;
+			font-size: 16px;
+
+			span {
+				font-size: 16px;
+			}
+		}
+	}
+
+	/*==================== OUR BENEFITS ====================*/
+	.our-benefits {
+		padding: 90px 0 120px 0;
+
+		// .our-benefits__community
+
+		&__community {
+			padding: 0 0 45px 0;
+		}
+
+		// .our-benefits__link
+
+		&__link {
+			font-size: 14px;
+		}
+
+		// .our-benefits__content
+
+		&__content {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 0 15px 0 0;
+		}
+
+		// .our-benefits__description
+
+		&__description {
+			max-width: 300px;
+			margin: 0 30px 0 0;
+		}
+
+		// .our-benefits__sub-title
+
+		&__sub-title {
+			font-size: 26px;
+			margin: 0 0 15px 0;
+		}
+
+		// .our-benefits__text
+
+		&__text {
+			font-size: 14px;
+		}
+
+		// .our-benefits__image
+
+		&__image {
+			img {
+				max-width: 100%;
+				height: 400px;
+			}
+		}
+	}
+	.content-header {
+		// .content-header_margin
+
+		&_margin {
+			margin-bottom: 40px;
+		}
+	}
+
+	/*========================== OUR EVENTS ==========================*/
+	.our-events {
+		// .our-events__want
+
+		&__want {
+			font-size: 22px;
+		}
+	}
+
+	.body-our-events {
+		padding: 28px 32px;
+
+		&__text {
+			font-size: 16px;
+		}
+	}
+
+	/*==================== CREATEX CERTIFICATE ====================*/
+	.createx-certificate {
+		// .createx-certificate__text
+
+		&__text {
+			margin: 0 0 20px 0;
+		}
+
+		// .createx-certificate__image-certificate
+
+		&__image-certificate {
+			height: 100%;
+			width: 100%;
+			object-fit: cover;
+			transition: box-shadow 0.4s;
+			cursor: pointer;
+		}
+	}
+	.content-header {
+		// .content-header_width
+
+		&_width {
+			max-width: 380px;
+			margin: 0 35px 0 0;
+			padding: 0 15px 0 0;
+		}
+
+		// .content-header__title
+
+		&__title {
+			// .content-header__title_font-size
+
+			&_font-size {
+				font-size: 36px;
+			}
+		}
+	}
+
+	/*==================== BEST TUTORS ARE ALL HERE ====================*/
+	.best-tutors {
+		padding: 90px 0 90px 0;
+	}
+
+	/*==================== TESTIMONIALS ====================*/
+	.testimonials {
+		padding: 60px 0 70px 0;
+	}
+
+	.reviews {
+		// .reviews__block
+
+		&__block {
+			padding: 30px 70px;
+		}
+
+		// .reviews__text
+
+		&__text {
+			font-size: 18px;
+		}
+	}
+
+	/*==================== OUR BLOG  ====================*/
+	.our-blog {
+		padding: 90px 0 90px;
+
+		// .our-blog__body
+
+		&__body {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			justify-items: center;
+		}
+	}
+
+	/*==================== DON’T MISS ANYTHING ====================*/
+	.dont-miss {
+		padding: 120px 0 90px 0;
+	}
+
+	.container-block {
+		max-width: 700px;
+		min-height: 650px;
+		padding: 0;
+		margin: 0 auto;
+	}
+	.block {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		// .block__item
+
+		&__item {
+			width: 100%;
+			padding: 30px 0;
+		}
+	}
+
+	.form-box {
+		width: 100%;
+		height: 500px;
+		box-shadow: none;
+		top: 0;
+
+		&.active {
+			top: 150px;
+			left: 0;
+		}
+	}
+	.form {
+		padding: 30px;
+	}
+
+	/*========================== FOOTER ==========================*/
+	.footer {
+		// .footer__top
+
+		&__top {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			grid-template-rows: repeat(2, 1fr);
+			grid-gap: 20px;
+		}
+	}
+
+	.top-footer {
+		// .top-footer__content
+
+		&__content {
+			max-width: 100%;
+		}
+
+		// .top-footer__link
+
+		&__link {
+			margin: 0 12px 0 0;
+
+			&:last-child {
+				margin: 0;
+			}
+		}
+	}
+
+	.footer-info {
+		grid-area: 2/1/2/3;
+		justify-content: flex-start;
+		// .footer-info__lists
+
+		&__lists {
+			max-width: 285px;
+		}
+	}
+}
+
+/* MOBILE */
+@media (max-width: 767.98px) {
+	[class*="__container"] {
+		max-width: none;
+	}
+	/*==================== BURGER MENU ====================*/
+	.menu__icon {
+		z-index: 5;
+		display: block;
+		position: relative;
+		width: 30px;
+		height: 18px;
+		cursor: pointer;
+		background-color: inherit;
+		margin: 0 0 0 5px;
+	}
+
+	.menu__icon span,
+	.menu__icon::before,
+	.menu__icon::after {
+		left: 0;
+		position: absolute;
+		height: 10%;
+		width: 100%;
+		transition: all 0.3s ease 0s;
+		background-color: #000;
+	}
+
+	.menu__icon::before,
+	.menu__icon::after {
+		content: "";
+	}
+
+	.menu__icon::before {
+		top: 0;
+	}
+
+	.menu__icon::after {
+		bottom: 0;
+	}
+
+	.menu__icon span {
+		top: 50%;
+		transform: scale(1) translate(0px, -50%);
+	}
+
+	.menu__icon._active span {
+		transform: scale(0) translate(0px, -50%);
+	}
+
+	.menu__icon._active::before {
+		top: 50%;
+		transform: rotate(-45deg) translate(0px, -50%);
+	}
+
+	.menu__icon._active::after {
+		bottom: 50%;
+		transform: rotate(45deg) translate(0px, 50%);
+	}
+
+	.navbar {
+		position: fixed;
+		top: 0;
+		left: 0;
+		top: -100%;
+		width: 100%;
+		height: 100%;
+		background-color: #fff;
+		padding: 150px 0 0 0;
+		transition: top 0.3s ease 0s;
+		overflow: auto;
+	}
+
+	.navbar._active {
+		top: 0;
+	}
+
+	.menu__list._active {
+		top: 0;
+	}
+
+	.navbar::before {
+		content: "";
+		position: fixed;
+		width: 100%;
+		top: 0;
+		left: 0;
+		height: 65px;
+		background-color: #feddcfff;
+		z-index: 20;
+	}
+
+	.navbar-white::before {
+		content: "";
+		position: fixed;
+		width: 100%;
+		top: 0;
+		left: 0;
+		height: 65px;
+		background-color: #fff;
+		z-index: 20;
+		box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+	}
+
+	.menu__list {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		font-size: 25px;
+	}
+
+	.menu__item {
+		margin: 0;
+	}
+
+	.menu__item:not(:last-child) {
+		margin: 0 0 25px 0;
+	}
+
+	.header__login {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		z-index: 5;
+	}
+
+	.menu {
+		&__sub-link {
+			font-size: 22px;
+		}
+	}
+
+	/*==================== ONLINE COURSES ====================*/
+	.online-courses {
+		padding: 110px 0 80px 0;
+
+		// .online-courses__content
+
+		&__content {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+
+		// .online-courses__block
+
+		&__block {
+			max-width: none;
+		}
+
+		// .online-courses__image
+
+		&__image {
+			flex: 1 1 100%;
+			text-align: center;
+			padding: 30px 0 0 0;
+
+			img {
+				max-width: 100%;
+				height: 100%;
+			}
+		}
+	}
+
+	.block {
+		// .block__text
+
+		&__text {
+			// .block__text_big-text
+
+			&_big-text {
+				font-size: 38px;
+			}
+		}
+	}
+
+	/*==================== WHO WE ARE ====================*/
+	.who-we-are {
+		padding: 90px 0 45px 0;
+		// .who-we-are__container
+
+		// .who-we-are__img
+
+		&__img {
+			display: none;
+		}
+
+		// .who-we-are__content
+
+		&__content {
+			max-width: 100%;
+			width: 100%;
+			padding: 0 0 0 15px;
+		}
+	}
+
+	.content-header {
+		// .content-header__sub-title
+
+		&__sub-title {
+			margin: 0 0 10px 0;
+		}
+
+		// .content-header__title
+
+		&__title {
+			margin: 0 0 30px 0;
+		}
+	}
+
+	/*========================= READY TO LEARN =========================*/
+	.ready-to-learn {
+		padding: 45px 0;
+
+		// .ready-to-learn__cards
+
+		&__cards {
+			display: grid;
+			grid-template-columns: repeat(1, 1fr);
+			justify-items: stretch;
+		}
+
+		// .ready-to-learn__card
+
+		&__card {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			img {
+				max-height: 100%;
+				width: 100%;
+				margin: 0;
+			}
+		}
+
+		// .ready-to-learn__description
+
+		&__description {
+			max-width: none;
+		}
+	}
+
+	.header-content {
+		display: block;
+		text-align: center;
+		padding: 0 0 20px 0;
+
+		// .header-content__title
+
+		&__title {
+			margin: 0 0 20px 0;
+		}
+	}
+
+	/*==================== OUR BENEFITS ====================*/
+	.our-benefits {
+		padding: 45px 0;
+
+		// .our-benefits__community
+
+		&__community {
+			padding: 0 0 25px 0;
+			display: grid;
+			grid-template: repeat(2, 40px) / repeat(2, 1fr);
+			align-items: center;
+			justify-items: center;
+		}
+
+		// .our-benefits__link
+
+		&__link {
+			font-size: 14px;
+		}
+
+		// .our-benefits__content
+
+		&__content {
+			display: block;
+			text-align: center;
+		}
+
+		// .our-benefits__description
+
+		&__description {
+			max-width: none;
+			margin: 0;
+		}
+
+		// .our-benefits__sub-title
+
+		&__sub-title {
+			font-size: 26px;
+			margin: 0 0 15px 0;
+		}
+
+		// .our-benefits__text
+
+		&__text {
+			font-size: 14px;
+			margin-bottom: 20px;
+		}
+
+		// .our-benefits__image
+
+		&__image {
+			img {
+				width: 100%;
+				height: 300px;
+			}
+		}
+	}
+	.content-header {
+		// .content-header_margin
+
+		&_margin {
+			margin-bottom: 30px;
+		}
+	}
+
+	/*========================== OUR EVENTS ==========================*/
+	.our-events {
+		padding: 45px 0;
+
+		// .our-events__bottom
+
+		&__bottom {
+			padding: 40px 0 0 0;
+		}
+
+		// .our-events__want
+
+		&__want {
+			font-size: 22px;
+		}
+	}
+
+	.body-our-events {
+		padding: 20px 12px;
+		margin: 0 0 20px 0;
+		// .body-our-events__item
+
+		&__item {
+			flex-direction: column;
+			align-items: flex-start;
+			max-width: 105px;
+			width: 100%;
+			margin: 0 20px 0 0;
+		}
+
+		// .body-our-events__value
+
+		&__value {
+			font-size: 38px;
+			align-items: start;
+			margin: 0;
+		}
+
+		// .body-our-events__date
+
+		&__date {
+			margin: 0 15px 0 0;
+		}
+
+		// .body-our-events__month
+
+		&__month {
+			font-size: 16px;
+		}
+
+		// .body-our-events__time
+
+		&__time {
+			font-size: 14px;
+		}
+
+		// .body-our-events__text
+
+		&__text {
+			font-size: 14px;
+		}
+	}
+
+	/*==================== CREATEX CERTIFICATE ====================*/
+	.createx-certificate {
+		// .createx-certificate__body
+
+		&__body {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+
+		// .createx-certificate__partners
+
+		&__partners {
+			margin: 0 0 20px 0;
+		}
+
+		// .createx-certificate__image-certificate
+
+		&__image-certificate {
+			img {
+				max-height: 370px;
+				width: 100%;
+				object-fit: contain;
+				display: block;
+				text-align: center;
+			}
+		}
+	}
+	.content-header {
+		// .content-header_width
+
+		&_width {
+			max-width: none;
+			margin: 0;
+			padding: 0;
+		}
+	}
+
+	/*==================== BEST TUTORS ARE ALL HERE ====================*/
+	.header-content {
+		// .header-content_center
+
+		&_center {
+			display: block;
+			text-align: center;
+		}
+	}
+
+	.swiper-slide {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	/*==================== TESTIMONIALS ====================*/
+	.testimonials {
+		padding: 90px 0;
+	}
+
+	//.swiper-button-prev_none,
+	//.swiper-button-next_none {
+	//	display: none;
+	//}
+
+	.reviews {
+		// .reviews__block
+
+		&__block {
+			padding: 20px 20px;
+		}
+
+		// .reviews__text
+
+		&__text {
+			font-size: 16px;
+			margin-bottom: 15px;
+		}
+	}
+
+	/*==================== OUR BLOG  ====================*/
+	.our-blog {
+		// .our-blog__content
+
+		&__content {
+			padding: 14px 0 8px;
+			flex-direction: column;
+		}
+
+		// .our-blog__marketing
+
+		&__marketing {
+			// .our-blog__marketing_text
+
+			&_text {
+				margin: 0 0 10px 0;
+
+				&:last-child {
+					margin: 0;
+				}
+			}
+		}
+
+		// .our-blog__module
+
+		&__module {
+			display: none;
+		}
+
+		// .our-blog__title
+
+		&__title {
+			font-size: 14px;
+			margin-bottom: 8px;
+		}
+
+		// .our-blog__sub-title
+
+		&__sub-title {
+			font-size: 14px;
+			margin-bottom: 10px;
+		}
+	}
+}
+
+/* MOBILE SMALL */
+@media (max-width: 572.98px) {
+	/*==================== ONLINE COURSES ====================*/
+	.online-courses {
+		padding: 100px 0 60px 0;
+
+		// .online-courses__block
+
+		&__block {
+			a {
+				display: block;
+				text-align: center;
+				margin: 0;
+
+				&:not(:last-child) {
+					margin: 0 0 20px 0;
+				}
+			}
+		}
+
+		// .online-courses__image
+
+		&__image {
+			img {
+				max-width: 100%;
+				height: 100%;
+			}
+		}
+
+		// .online-courses__lists
+
+		&__lists {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+
+		// .online-courses__list
+
+		&__list {
+			width: 100%;
+		}
+
+		// .online-courses__number
+
+		&__number {
+			margin: 0 0 10px 0;
+			font-size: 30px;
+		}
+
+		// .online-courses__subtitle
+
+		&__subtitle {
+			// .online-courses__subtitle_round
+
+			&_round {
+				display: block;
+			}
+		}
+	}
+
+	.block {
+		// .block__text
+
+		&__text {
+			// .block__text_big-text
+
+			&_big-text {
+				font-size: 32px;
+			}
+		}
+	}
+
+	/*========================== OUR EVENTS ==========================*/
+	.our-events {
+		// .our-events__bottom
+
+		&__bottom {
+			display: block;
+			text-align: center;
+		}
+
+		// .our-events__want
+
+		&__want {
+			display: block;
+			text-align: center;
+			margin: 0 0 15px 0;
+		}
+	}
+
+	.body-our-events {
+		display: block;
+		// .body-our-events__item
+
+		&__item {
+			flex-direction: row;
+			max-width: none;
+			margin: 0 0 10px 0;
+		}
+
+		// .body-our-events__value
+
+		&__value {
+			margin: 0 15px 0 0;
+		}
+
+		// .body-our-events__description
+
+		&__description {
+			margin: 0 0 15px 0;
+		}
+
+		// .body-our-events__text
+
+		&__text {
+			margin: 0 0 8px 0;
+		}
+	}
+
+	/*==================== BEST TUTORS ARE ALL HERE ====================*/
+	.best-tutors {
+		padding: 45px 0;
+	}
+
+	.swiper-slide {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	/*==================== TESTIMONIALS ====================*/
+	.testimonials {
+		padding: 45px 0;
+	}
+
+	//.testimonials-slider .swiper-pagination {
+	//	bottom: 0;
+	//}
+
+	.reviews {
+		// .reviews__block
+
+		&__block {
+			padding: 10px 10px 40px 10px;
+		}
+
+		// .reviews__text
+
+		&__text {
+			font-size: 14px;
+			margin-bottom: 10px;
+		}
+	}
+
+	/*==================== OUR BLOG  ====================*/
+	.our-blog {
+		padding: 45px 0;
+
+		// .our-blog__body
+
+		&__body {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-evenly;
+		}
+
+		// .our-blog__content
+
+		&__content {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-evenly;
+			flex-wrap: wrap;
+		}
+
+		// .our-blog__marketing
+
+		&__marketing {
+			// .our-blog__marketing_text
+
+			&_text {
+				margin: 0;
+			}
+		}
+	}
+}
+
+/* MOBILE SMALL */
+@media (max-width: 479.98px) {
+	.header {
+		padding: 20px 0;
+
+		._icon-user:before {
+			content: "\e959";
+			margin: 0;
+		}
+	}
+
+	.logo-header {
+		z-index: 5;
+		margin: 0 10px 0 0;
+	}
+
+	.button_hide {
+		display: none;
+	}
+
+	.navbar::before {
+		content: "";
+
+		height: 60px;
+	}
+
+	.user {
+		&__icon {
+			margin: 0 35px 0 0;
+		}
+	}
+
+	/*========================= WHO WE ARE =========================*/
+	.who-we-are {
+		padding: 45px 0 45px 0;
+	}
+	.content-header {
+		// .content-header__sub-title
+
+		&__sub-title {
+			font-size: 14px;
+		}
+
+		// .content-header__title
+
+		&__title {
+			font-size: 30px;
+		}
+	}
+
+	.button {
+		// .button_block
+
+		&_block {
+			display: block;
+			text-align: center;
+		}
+	}
+
+	/*========================= READY TO LEARN =========================*/
+	.ready-to-learn {
+		// .ready-to-learn__card
+
+		&__card {
+			display: block;
+			text-align: center;
+			img {
+				width: 100%;
+				margin: 0 auto;
+			}
+		}
+	}
+
+	/*==================== OUR BENEFITS ====================*/
+	.our-benefits {
+		// .our-benefits__community
+
+		&__community {
+			padding: 0 0 25px 0;
+			display: grid;
+			grid-template: repeat(4, 35px) / repeat(1, 1fr);
+			align-items: center;
+			justify-items: center;
+		}
+
+		// .our-benefits__content
+
+		&__content {
+			display: block;
+			text-align: center;
+		}
+
+		// .our-benefits__description
+
+		&__description {
+			max-width: none;
+			margin: 0;
+		}
+
+		// .our-benefits__sub-title
+
+		&__sub-title {
+			font-size: 22px;
+			margin: 0 0 15px 0;
+		}
+
+		// .our-benefits__text
+
+		&__text {
+			margin-bottom: 20px;
+		}
+
+		// .our-benefits__image
+
+		&__image {
+			img {
+				min-height: 300px;
+			}
+		}
+	}
+	.content-header {
+		// .content-header_margin
+
+		&_margin {
+			margin-bottom: 20px;
+		}
+	}
+
+	/*==================== CREATEX CERTIFICATE ====================*/
+	.createx-certificate {
+		// .createx-certificate__partners
+
+		&__partners {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			justify-items: center;
+		}
+	}
+	.content-header {
+		// .content-header__title
+
+		&__title {
+			// .content-header__title_font-size
+
+			&_font-size {
+				font-size: 30px;
+			}
+		}
+	}
+
+	/*==================== BEST TUTORS ARE ALL HERE ====================*/
+	//.swiper-button-next,
+	//.swiper-button-prev {
+	//	display: none;
+	//}
+
+	/*==================== TESTIMONIALS ====================*/
+	.reviews {
+		// .reviews__block
+
+		&__block {
+			padding: 5px 5px 40px 5px;
+		}
+
+		// .reviews__image
+
+		&__image {
+			img {
+				width: 50px;
+				height: 50px;
+				object-fit: cover;
+				margin: 0 10px 0 0;
+			}
+		}
+
+		// .reviews__name
+
+		&__name {
+			font-size: 14px;
+		}
+
+		// .reviews__position
+
+		&__position {
+			font-size: 14px;
+		}
+	}
+
+	/*==================== DON’T MISS ANYTHING ====================*/
+	.dont-miss {
+		padding: 45px 0 45px 0;
+	}
+
+	/*========================== FOOTER ==========================*/
+	.footer {
+		// .footer__top
+
+		&__top {
+			display: flex;
+			flex-direction: column;
+		}
+	}
+	.top-footer {
+		// .top-footer__link
+
+		&__link {
+			font-size: 22px;
+			margin: 0 20px 0 0;
+		}
+	}
+
+	.footer-info {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 15px;
+
+		// .footer-info__link
+
+		&__link {
+			font-size: 12px;
+		}
+	}
+
+	.footer {
+		// .footer__container
+
+		&__container {
+			// .footer__container_flex
+
+			&_flex {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
+		}
+
+		// .footer__all-rights
+
+		&__all-rights {
+			margin-bottom: 10px;
+		}
+	}
+}

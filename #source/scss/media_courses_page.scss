@@ -1,0 +1,449 @@
+/* TABLET */
+@media (max-width: 991.98px) {
+	[class*="__container"] {
+		max-width: none;
+	}
+
+	/*==================== ENGOY YOUR STUDYING ! ====================*/
+	.engoy {
+		padding: 150px 0 90px 0;
+		// .engoy__container
+
+		&__container {
+		}
+
+		// .engoy__mentors
+
+		&__mentors {
+			display: flex;
+			flex-direction: column;
+			margin: 0 0 40px 0;
+		}
+
+		// .engoy__filter
+
+		&__filter {
+			padding: 0;
+			margin: 0 0 25px 0;
+		}
+
+		// .engoy__filter-btn
+
+		&__filter-btn {
+			margin: 0 40px 0 0;
+		}
+
+		// .engoy__search
+
+		&__search {
+		}
+
+		// .engoy__input
+
+		&__input {
+		}
+
+		// .engoy__block
+
+		&__block {
+			grid-gap: 20px;
+		}
+
+		// .engoy__foto
+
+		&__foto {
+		}
+
+		// .engoy__foto-item
+
+		&__foto-item {
+		}
+
+		// .engoy__img
+
+		&__img {
+		}
+
+		// .engoy__description
+
+		&__description {
+			padding: 15px;
+		}
+
+		// .engoy__profession
+
+		&__profession {
+			font-size: 16px;
+			margin: 0 0 10px 0;
+		}
+
+		// .engoy__price
+
+		&__price {
+			font-size: 16px;
+
+			span {
+				font-size: 16px;
+			}
+		}
+	}
+	.content-header {
+		// .content-header_center
+
+		&_center {
+		}
+
+		// .content-header_margin
+
+		&_margin {
+		}
+
+		// .content-header__sub-title
+
+		&__sub-title {
+		}
+
+		// .content-header__title
+
+		&__title {
+		}
+	}
+	.portfolio {
+		// .portfolio__filter-link
+
+		&__filter-link {
+		}
+	}
+
+	.mix {
+	}
+	.category-marketing {
+	}
+	.ready-to-learn {
+		// .ready-to-learn__warkers
+
+		&__warkers {
+			margin: 0 0 6px 0;
+			// .ready-to-learn__warkers_marketing
+
+			&_marketing {
+			}
+
+			// .ready-to-learn__warkers_management
+
+			&_management {
+			}
+
+			// .ready-to-learn__warkers_hr
+
+			&_hr {
+			}
+
+			// .ready-to-learn__warkers_design
+
+			&_design {
+			}
+
+			// .ready-to-learn__warkers_development
+
+			&_development {
+			}
+		}
+	}
+	.category-management {
+	}
+}
+
+/* MOBILE */
+@media (max-width: 767.98px) {
+	[class*="__container"] {
+		max-width: none;
+	}
+	/*==================== ENGOY YOUR STUDYING ! ====================*/
+	.engoy {
+		padding: 110px 0 45px 0;
+		// .engoy__container
+
+		&__container {
+		}
+
+		// .engoy__mentors
+
+		&__mentors {
+		}
+
+		// .engoy__filter
+
+		&__filter {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			grid-gap: 20px;
+			justify-items: center;
+			padding: 0;
+			//margin-bottom: 60px;
+		}
+
+		// .engoy__filter-btn
+
+		&__filter-btn {
+			margin: 0;
+		}
+
+		// .engoy__search
+
+		&__search {
+		}
+
+		// .engoy__input
+
+		&__input {
+		}
+
+		// .engoy__block
+
+		&__block {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			grid-gap: 25px;
+		}
+
+		// .engoy__foto
+
+		&__foto {
+		}
+
+		// .engoy__foto-item
+
+		&__foto-item {
+		}
+
+		// .engoy__img
+
+		&__img {
+		}
+
+		// .engoy__description
+
+		&__description {
+		}
+
+		// .engoy__profession
+
+		&__profession {
+		}
+
+		// .engoy__price
+
+		&__price {
+		}
+	}
+	.content-header {
+		// .content-header_center
+
+		&_center {
+		}
+
+		// .content-header_margin
+
+		&_margin {
+		}
+
+		// .content-header__sub-title
+
+		&__sub-title {
+		}
+
+		// .content-header__title
+
+		&__title {
+		}
+	}
+	.portfolio {
+		// .portfolio__filter-link
+
+		&__filter-link {
+		}
+	}
+
+	.mix {
+	}
+	.category-marketing {
+	}
+	.ready-to-learn {
+		// .ready-to-learn__warkers
+
+		&__warkers {
+			// .ready-to-learn__warkers_marketing
+
+			&_marketing {
+			}
+
+			// .ready-to-learn__warkers_management
+
+			&_management {
+			}
+
+			// .ready-to-learn__warkers_hr
+
+			&_hr {
+			}
+
+			// .ready-to-learn__warkers_design
+
+			&_design {
+			}
+
+			// .ready-to-learn__warkers_development
+
+			&_development {
+			}
+		}
+	}
+	.category-management {
+	}
+}
+
+/* MOBILE SMALL */
+@media (max-width: 572.98px) {
+	/*==================== ENGOY YOUR STUDYING ! ====================*/
+	.engoy {
+		// .engoy__container
+
+		&__container {
+		}
+
+		// .engoy__mentors
+
+		&__mentors {
+		}
+
+		// .engoy__filter
+
+		&__filter {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			grid-gap: 35px;
+			justify-items: center;
+			padding: 0;
+		}
+
+		// .engoy__filter-btn
+
+		&__filter-btn {
+			margin: 0;
+		}
+
+		// .engoy__search
+
+		&__search {
+		}
+
+		// .engoy__input
+
+		&__input {
+		}
+
+		// .engoy__block
+
+		&__block {
+			display: grid;
+			grid-template-columns: repeat(1, 1fr);
+			grid-gap: 20px;
+			justify-items: center;
+		}
+
+		// .engoy__foto
+
+		&__foto {
+		}
+
+		// .engoy__foto-item
+
+		&__foto-item {
+		}
+
+		// .engoy__img
+
+		&__img {
+		}
+
+		// .engoy__description
+
+		&__description {
+		}
+
+		// .engoy__profession
+
+		&__profession {
+		}
+
+		// .engoy__price
+
+		&__price {
+		}
+	}
+	.content-header {
+		// .content-header_center
+
+		&_center {
+		}
+
+		// .content-header_margin
+
+		&_margin {
+		}
+
+		// .content-header__sub-title
+
+		&__sub-title {
+		}
+
+		// .content-header__title
+
+		&__title {
+		}
+	}
+	.portfolio {
+		// .portfolio__filter-link
+
+		&__filter-link {
+		}
+	}
+
+	.mix {
+	}
+	.category-marketing {
+	}
+	.ready-to-learn {
+		// .ready-to-learn__warkers
+
+		&__warkers {
+			// .ready-to-learn__warkers_marketing
+
+			&_marketing {
+			}
+
+			// .ready-to-learn__warkers_management
+
+			&_management {
+			}
+
+			// .ready-to-learn__warkers_hr
+
+			&_hr {
+			}
+
+			// .ready-to-learn__warkers_design
+
+			&_design {
+			}
+
+			// .ready-to-learn__warkers_development
+
+			&_development {
+			}
+		}
+	}
+	.category-management {
+	}
+}
